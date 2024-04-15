@@ -1,0 +1,15 @@
+This program is not authorized to change the CPU frequency scaling governor (currently 'ondemand').
+Recommend re-running with sudo or 'adb root'
+Detected max CPU frequency: 900.000 MHz
+Benchmark parameters:
+	bufsize		4096
+	ntries		5
+
+Adiantum-XChaCha20-AES encryption (NEON)      15.871 cpb (56708 KB/s)
+Adiantum-XChaCha20-AES decryption (NEON)      15.976 cpb (56334 KB/s)
+
+Adiantum-XChaCha12-AES encryption (NEON)      11.559 cpb (77863 KB/s)
+Adiantum-XChaCha12-AES decryption (NEON)      11.664 cpb (77158 KB/s)
+
+Adiantum-XChaCha8-AES encryption (NEON)        9.652 cpb (93241 KB/s)
+Adiantum-XChaCha8-AES decryption (NEON)        9.547 cpb (94266 KB/s)
